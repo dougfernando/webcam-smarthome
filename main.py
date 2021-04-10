@@ -6,6 +6,7 @@ from TuyaController import TuyaController
 
 
 def webcam_loop(controller: TuyaController):
+    # update this with the respective key of your web conference app
     teams_webcam_status_key = OpenKey(HKEY_CURRENT_USER,
                     r"Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\webcam"
                     r"\NonPackaged\C:#Users#douglas.f.silva#AppData#Local#Microsoft#Teams#current#Teams.exe")
